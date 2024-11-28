@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <input type="search" class="Search-box" name="" id="" placeholder="enter movie name here">
+        <button class="button">Search movie</button>
+    </div>    
+
+    <!-- Loading spinner -->
+    <div id="loading" style="display:none;">Loading...</div>
+
+    <!-- Error message -->
+    <div id="error" style="display:none;">No movies found. Try another search.</div>
+    
+
+    <!-- Movie Results -->
+    <div id="content"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
